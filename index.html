@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">#Wemet</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+
+                    <li><a href="#">Add Profile</a></li>
+                    <li><a href="#">Gallary</a></li>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control">
+                    </div>
+                    <button type="button" class="btn btn-primary">Search</button>
+                </div>
+                <!-- <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul> -->
+            </div>
+        </div>
+    </nav>
+    <!-- THIS IS THE END OF NAVIGATION BAR -->
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="container-fluid">
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="/Bootstrap_project/dating_image_1.jpg" alt="Los Angeles">
+          </div>
+      
+          <div class="item">
+            <img src="/Bootstrap_project/dating_image_2.jpg" alt="Chicago">
+          </div>
+      
+          <div class="item">
+            <img src="/Bootstrap_project/dating_image_3.jpg" alt="New York">
+          </div>
+        </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <br>
+      <br>
+      
+<!-- THIS IS THE END OF CAROUSEL  -->
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 jumbotron custom jumbotron text center">
+
+                <p>Find your perfect match here with us !!</p>
+
+
+
+
+                <h5>If you are looking for a #perfectpartner then search here. </h5>
+
+            </div>
+            <div class="col-sm-8 ">
+                <form class="form-horizontal" action="/action_page.php">
+                    <h3 style="text-align: center;"> Sign Up for free demo</h3>
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Name:</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Seeking For:</label>
+                        <div class="col-sm-8">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle col-sm-4" type="button"
+                                    data-toggle="dropdown">
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li class="active"><a href="#">Men</a></li>
+                                    <li><a href="#">Women</a></li>
+    
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="number" class="form-control" id="zipc" placeholder="Zip Code">
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="age" placeholder="Enter your age">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" id="eml" placeholder="Enter you email id">
+                        </div>
+                        <div class="col-sm-6 ">
+                            <br>
+                        <input type="submit" class="btn btn-info" value="Sign Up" />
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- THIS IS THE END OF FORM  -->
+
+    <h2><small>Recently added profiles.</small></h2>
+
+    </div>
+    <div class="row">
+        <div class="col-md-3 ">
+            <div class="thumbnail ">
+                <a href="/Bootstrap_project/boy_image_1.jpg">
+                    <img src="/Bootstrap_project/boy_image_1.jpg" alt="Lights" style="width:100%">
+                    <div class="caption ">
+                        <p>Jorge Salvadar</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <a href="/Bootstrap_project/girl_image_2.jpg">
+                    <img src="/Bootstrap_project/girl_image_2.jpg" alt="Nature" style="width:100%">
+                    <div class="caption">
+                        <p>Elly Hetshon</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <a href="/Bootstrap_project/girl_image_1.jpg">
+                    <img src="/Bootstrap_project/girl_image_1.jpg" alt="Fjords" style="width:100%">
+                    <div class="caption">
+                        <p>Lynee Baltlzer</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <a href="/Bootstrap_project/boy_image_2.jpg">
+                    <img src="/Bootstrap_project/boy_image_2.jpg" alt="Fjords" style="width:100%">
+                    <div class="caption">
+                        <p>Cole Wyland</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- THIS IS END OF RECENTLY ADDED PROFILE -->
+</body>
+
+</html>
